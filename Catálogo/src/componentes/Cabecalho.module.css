@@ -1,0 +1,15 @@
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #081b29;
+    height: 150px;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    color: #00abf0;
+    font-family: "JetBrains Mono", monospace;
+    background-color: #081b29;
+}

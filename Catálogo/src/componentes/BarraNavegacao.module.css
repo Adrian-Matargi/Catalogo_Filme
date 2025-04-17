@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00abf0;
+    padding: 5px;
+    color: #ededed;
+    height: 80px;
+}
+
+ul{
+    list-style: none;
+    margin-right: 20px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: #00abf0;
+}
+
+li{
+    margin-left: 30px;
+    color: #ededed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    background-color: #00abf0;
+}
+
+a{
+    background-color: #00abf0;
+    text-decoration: none;
+}
+
+span{
+    background-color: #00abf0;
+}
