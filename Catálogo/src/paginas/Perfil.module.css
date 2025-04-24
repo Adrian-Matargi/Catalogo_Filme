@@ -1,7 +1,53 @@
-.container{
+.conteiner{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.perfilConteiner{
+    background-color: rgb(28, 28, 28);
+    padding: 20px;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 90%;
+    max-height: 95%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    position: relative; 
+    color: #ededed;
+}
+
+.PerfilHeader{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #141414;
-    height: 95%;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.filme{
+    display: flex;
+    justify-content: center;
+}
+
+.filme h1{
+    text-align: center;
+}
+
+.filmeTitle{
+    margin-top: 30px;
+}
+
+.filme img{
+    padding: 30px;
+}
+
+.imagemPerfil{
+    display: flex;
+}
+
+.imagemPerfil img{
+    width: 30%;
 }

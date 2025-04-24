@@ -60,6 +60,10 @@
     padding: 30px;
 }
 
+ul{
+    background-color: #081b29;
+}
+
 button{
     background-color: rgb(70, 70, 70);
     border-radius: 50px;

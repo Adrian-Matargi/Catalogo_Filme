@@ -23,7 +23,7 @@ li{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     align-items: center;
-    background-color: #00abf0;
+    background-color: transparent;
 }
 
 a{
