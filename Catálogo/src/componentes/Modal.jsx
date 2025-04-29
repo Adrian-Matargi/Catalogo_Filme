@@ -1,29 +1,25 @@
 import estilos from './Modal.module.css';
 
-export function Modal({ movie, onClose }){
-    if(!movie){
-        return null;
-    }
-    console.log(movie);
+export function Modal({ movie, onClose }) {
+    if (!movie) return null;
 
-    return(
-        <div className={estilos.modalback}>
-            <div className={estilos.modalConteiner}>
-                <div className={estilos.ModalHeader}>
-                    <button onClick={onClose}>x</button>
-                    <h2>{movie.title}</h2>
-                    <img className={estilos.imgModal} src={`http://image.tmdb.org/t/p/w500/${movie.poster_path}`}></img>
+    return (
+        <div className={estilos.modalback} onClick={onClose}>
+            <div className={estilos.modalConteiner} onClick={(e) => e.stopPropagation()}>
+                <button className={estilos.closeButton} onClick={onClose}>×</button>
+                <div className={estilos.modalContent}>
+                    <img className={estilos.imgModal} src={`http://image.tmdb.org/t/p/w500/${movie.poster_path}`} alt={movie.title}/>
                     <div className={estilos.movieDetails}>
+                        <h2>{movie.title}</h2>
+                        <p>{movie.overview}</p>
                         <ul>
-                            <li>{`Popularidade: ${movie.popularity}`}</li>
-                            <li>{`Data de Lançamento: ${movie.release_date}`}</li>
-                            <li>{`Quantidade de Votos: ${movie.vote_count}`}</li>
+                            <li><strong>Popularidade:</strong> {movie.popularity}</li>
+                            <li><strong>Data de Lançamento:</strong> {movie.release_date}</li>
+                            <li><strong>Quantidade de Votos:</strong> {movie.vote_count}</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-
-    )
-
+    );
 }
