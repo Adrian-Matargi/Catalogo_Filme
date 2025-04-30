@@ -1,53 +1,76 @@
-.conteiner{
-    margin: 50px;
-    display: flex;
-    justify-content: center;
+* {
+    font-family: Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
-.perfilConteiner{
-    background-color: rgb(28, 28, 28);
-    padding: 20px;
+.conteiner {
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #1c1c1c;
+    min-height: 100vh;
+}
+
+.perfilConteiner {
+    padding: 30px;
     border-radius: 15px;
-    width: 80%;
-    max-width: 90%;
-    max-height: 95%;
-    overflow: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    position: relative; 
-    color: #ededed;
+    width: 100%;
+    max-width: 1000px;
+    color: #f0f0f0;
 }
 
-.PerfilHeader{
+.perfilHeader {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    flex-direction: column;
-    margin-bottom: 15px;
-}
-
-.filme{
-    display: flex;
-    justify-content: center;
-}
-
-.filme h1{
+    margin-bottom: 40px;
     text-align: center;
 }
 
-.filmeTitle{
-    margin-top: 30px;
+.fotoPerfil {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid #00bfff;
+    background-color: white;
 }
 
-.filme img{
-    padding: 30px;
+.tituloSecao {
+    font-size: 1.5rem;
+    color: #00bfff;
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
-.imagemPerfil{
+.galeria {
     display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
 }
 
-.imagemPerfil img{
-    width: 30%;
+.card {
+    border-radius: 12px;
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card p {
+    padding: 10px;
+    font-size: 0.95rem;
+    color: #ededed;
 }

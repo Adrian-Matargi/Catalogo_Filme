@@ -10,7 +10,8 @@ export function Inicial(){
             <Cabecalho />
             <BarraNavegacao />
             <Conteudo/>
-            < Outlet />
+            <Outlet/>
+            <Rodape/>
         </>
     )
 }

@@ -8,8 +8,8 @@ export function BarraNavegacao(){
             <ul>
                 <Link to='/'>
                 <li>
-                    <span class="material-symbols-outlined">home</span>
-                    Home
+                <span class="material-symbols-outlined">movie</span>
+                    Filmes
                 </li>
                 </Link>
                 <Link to='series'>

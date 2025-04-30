@@ -56,7 +56,7 @@ figure{
 .overlay h3 {
     font-size: 18px;
     font-weight: bold;
-    color: #fff;
+    color: #ededed;
     margin: 0;
     margin-bottom: 10px;
     background-color: transparent;
@@ -67,7 +67,7 @@ figure{
     background-color: #00abf0;
     border: none;
     border-radius: 5px;
-    color: white;
+    color: #ededed;
     font-weight: bold;
     cursor: pointer;
     align-self: flex-start;

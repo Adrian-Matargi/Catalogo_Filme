@@ -1,10 +1,5 @@
-figure {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.container {
+/* Cardseries.module.css */
+.cardseries-container {
     position: relative;
     width: 300px;
     height: 450px;
@@ -18,28 +13,28 @@ figure {
     cursor: pointer;
 }
 
-.container:hover {
+.cardseries-container:hover {
     transform: scale(1.05);
 }
 
-.imageWrapper {
+.cardseries-imageWrapper {
     position: relative;
     height: 100%;
     overflow: hidden;
 }
 
-.image {
+.cardseries-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
 }
 
-.container:hover .image {
+.cardseries-container:hover .cardseries-image {
     transform: scale(1.1);
 }
 
-.overlay {
+.cardseries-overlay {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -53,27 +48,27 @@ figure {
     transition: opacity 0.3s;
 }
 
-.overlay h3 {
+.cardseries-overlay h3 {
     font-size: 18px;
     font-weight: bold;
-    color: #fff;
+    color: #ededed;
     margin: 0;
     margin-bottom: 10px;
     background-color: transparent;
 }
 
-.button {
+.cardseries-button {
     padding: 10px 20px;
     background-color: #00abf0;
     border: none;
     border-radius: 5px;
-    color: white;
+    color: #ededed;
     font-weight: bold;
     cursor: pointer;
     align-self: flex-start;
     transition: background-color 0.3s ease;
 }
 
-.button:hover {
+.cardseries-button:hover {
     background-color: #008ecf;
 }

@@ -1,12 +1,14 @@
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #141414;
+.container {
+    font-family: Verdana, sans-serif;
+    color: #ededed;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.95rem;
+    border-top: 1px solid #1a1a1a;
+    margin-top: 50px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
 }
 
-h3{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    color: aqua
+.container p {
+    margin: 0;
 }

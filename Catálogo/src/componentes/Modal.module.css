@@ -41,12 +41,12 @@
 
 .closeButton {
     position: absolute;
-    top: 20px;
-    right: 25px;
+    top: 35px;
+    right: 40px;
     background: transparent;
     border: none;
     font-size: 32px;
-    color: #ffffffcc;
+    color: #ededed;
     cursor: pointer;
     transition: transform 0.2s ease, color 0.2s ease;
 }
